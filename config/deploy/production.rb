@@ -3,7 +3,7 @@
 # Defines a single server with a list of roles and multiple properties.
 # You can define all roles on a single server, or split them:
 
-server "localhost", user: "ext-hyd-lap-070", roles: %w{app db web}#, my_property: :my_value
+server "localhost", user: "ext-hyd-lap-055", roles: %w{app db web}#, my_property: :my_value
 # server 'localhost', user: 'ext-hyd-lap-070', roles: %w{app db web}#, port: 0
 set :puma_workers, 2
 set :sidekiq_processes, 2
