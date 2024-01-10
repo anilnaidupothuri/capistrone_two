@@ -3,7 +3,7 @@ lock "~> 3.18.0"
 
 set :application, "capistrone_two"
 set :repo_url, "https://github.com/anilnaidupothuri/capistrone_two.git"
-set :deploy_to, "/var/www/capistron_two"
+set :deploy_to, "/var/www/capistron_two2"
 
 namespace :deploy do
   task :start do ; end
